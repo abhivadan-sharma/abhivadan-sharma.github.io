@@ -1,0 +1,25 @@
+<header class="header">
+    <div class="header-content">
+        <div class="profile-section">
+            <div class="profile-image-container">
+                <img src="{{ '/src/headshot3.jpg' | relative_url }}" alt="Profile picture" class="profile-image">
+            </div>
+            <div class="profile-info">
+                <h1 class="profile-name">{{ site.title }}</h1>
+                <p class="profile-title">{{ site.data.profile.title }}</p>
+                <div class="profile-links">
+                    {% for link in site.data.profile.links %}
+                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="profile-link">
+                            {{ link.title }}
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        
+        <div class="profile-bio">
+            <p>{{ site.data.profile.bio_part1 }}</p>
+            <p>{{ site.data.profile.bio_part2 }}</p>
+        </div>
+    </div>
+</header>

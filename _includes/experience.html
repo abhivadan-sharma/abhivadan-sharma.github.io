@@ -1,0 +1,14 @@
+<div class="about-col">
+    <h3>Work Experience</h3>
+    <div class="compact-items">
+        {% for job in site.data.experience %}
+        <div class="compact-item">
+            <div class="compact-header">
+                <span class="compact-title">{{ job.title }}</span>
+                <span class="compact-date">{{ job.period }}</span>
+            </div>
+            <div class="compact-institution">{{ job.company }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

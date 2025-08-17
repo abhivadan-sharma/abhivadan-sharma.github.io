@@ -1,0 +1,16 @@
+<div class="about-col">
+    <h3>Education</h3>
+    <div class="compact-items">
+        {% for edu in site.data.education %}
+        <div class="compact-item">
+            <div class="compact-header">
+                <span class="compact-title">{{ edu.degree }}</span>
+                <span class="compact-date">{{ edu.period }}</span>
+            </div>
+            {% if edu.institution %}
+            <div class="compact-institution">{{ edu.institution }}</div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

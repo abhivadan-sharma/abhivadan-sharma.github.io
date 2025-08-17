@@ -1,0 +1,24 @@
+<section id="competencies" class="section">
+    <div class="section-header">
+        <h2 class="section-title">Core Competencies</h2>
+    </div>
+    <div class="competencies-grid">
+        {% for category in site.data.competencies %}
+        <div class="card competency-card">
+            <div class="card-header">
+                <h3 class="card-title">{{ category.category }}</h3>
+            </div>
+            <div class="card-content">
+                <ul class="skills-list">
+                    {% for skill in category.skills %}
+                    <li class="skill-item">
+                        <span class="skill-name">{{ skill.name }}</span>:
+                        <span class="skill-description">{{ skill.description }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

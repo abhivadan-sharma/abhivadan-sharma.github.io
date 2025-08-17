@@ -1,0 +1,23 @@
+- title: "Analytics Leadership for Digital Transformation"
+  description: "I served as the analytics lead for a <span class=\"highlight\">$20M</span> digital transformation initiative within Claims Operations. I translated complex business goals into quantifiable metrics, followed by design, implementation, and reporting on those metrics."
+  impact: "Data driven progress tracking and <span class=\"highlight\">accurate performance measurement</span> for a reliable transformation process."
+
+- title: "A/B Testing for Customer Wellness"
+  description: "I designed and implemented A/B testing initiatives for a <span class=\"highlight\">2M+</span> Customer Wellness program. I was responsible for leading the entire study, which included designing the key measurements, determining the required participant volume, establishing the measurement period, and reporting results to guide critical business decisions over a multi-year period."
+  impact: "The A/B tests provide the foundation for future program enhancement and scaling with <span class=\"highlight\">$1B+</span> potential impact."
+
+- title: "ML Modeling for Customer Risk Segmentation"
+  description: "I led the development of machine learning models to enhance customer risk segmentation. I led the process from start to finish—translating actuarial problems into predictive modeling formulations, engineering data pipelines, and guiding the development of the ML models, including feature engineering, hyperparameter tuning, and model evaluation using multi-variate SHAP values for interpretation."
+  impact: "The insights from these models directly informed our financial assumptions, which in turn influenced a balance sheet exceeding <span class=\"highlight\">$15B</span>."
+
+- title: "Data Engineering Pipeline Management"
+  description: "I lead the management of a large-scale data pipeline consolidating customer attributes from <span class=\"highlight\">hundreds of SQL tables</span> to create 10 well-curated datasets used for financial modeling. The pipeline is a mix of fully-automated SQL Stored Procedures and a semi-automated Python and SQL codebase, which produces large datasets over 100GB in size."
+  impact: "Accurate and timely availability of data that's considered one of the most <span class=\"highlight\">critical data</span> infrastructures within the enterprise."
+
+- title: "Analytics Transformation"
+  description: "I led a multi-year transformation of our team's analytics capabilities. This involved working closely with various analytics stakeholders to synthesize their analytics requirements, translating those into specific metrics, <span class=\"highlight\">architecting</span> the Business Intelligence Schema, and then leading the development of the data engineering and visualization components."
+  impact: "This transformation has enabled the team to deliver reliable <span class=\"highlight\">sources of truth</span> for key metrics, and has significantly improved the team's ability to provide data-driven insights and recommendations on a <span class=\"highlight\">real time</span> basis."
+
+- title: "Forecasting and Capacity Planning"
+  description: "I implemented a capacity planning solution for an organization of over <span class=\"highlight\">200</span> full-time employees. I used time series forecasting to predict future case volumes for more than 10 lines of business and integrated these forecasts with FTE unit metrics to project staffing needs."
+  impact: "This solution enabled the organization to make informed decisions about staffing and resource allocation, ensuring that we are well-prepared to meet future demands."

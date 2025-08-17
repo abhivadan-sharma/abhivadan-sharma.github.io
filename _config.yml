@@ -1,0 +1,54 @@
+# Site settings
+title: Abhivadan Sharma
+email: # your.email@example.com
+description: >-
+  Director, Data Science and Analytics @ Unum. Leading data-driven solutions
+  and analytics strategies for enterprise-scale impact.
+baseurl: ""
+url: "https://abhivadan-sharma.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+author:
+  name: "Abhivadan Sharma"
+  twitter: # your_twitter_handle
+
+social:
+  name: Abhivadan Sharma
+  links:
+    - https://www.linkedin.com/in/abhivadan-sharma
+    # - https://github.com/abhivadan-sharma
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  projects:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

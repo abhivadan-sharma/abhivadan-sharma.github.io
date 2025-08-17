@@ -1,0 +1,21 @@
+- category: "Technical Expertise"
+  skills:
+    - name: "AI/ML"
+      description: "Agentic AI, RL, XGBoost, GLM (Generalized Linear Models), Time Series Forecasting, Backpropagation, SVM"
+    - name: "Data Engineering"
+      description: "SQL, Python, SAS"
+    - name: "Cloud Platforms"
+      description: "AWS, Azure"
+    - name: "Business Intelligence"
+      description: "Power BI, Tableau"
+
+- category: "Leadership Strengths"
+  skills:
+    - name: "Team Leadership"
+      description: "Recruiting, Coaching, Mentoring diverse teams"
+    - name: "Strategic Planning"
+      description: "Vision, Roadmap Development, Prioritization, Execution"
+    - name: "Business Impact"
+      description: "Data Driven Decision Making, ROI, Business Case Development"
+    - name: "Stakeholder Management"
+      description: "Securing stakeholder alignment for new initiatives"
