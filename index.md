@@ -18,4 +18,5 @@ layout: default
     
     {% include competencies.html %}
     {% include business-impact.html %}
+    {% include personal-projects.html %}
 </div>

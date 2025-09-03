@@ -1,0 +1,5 @@
+- title: "🌱 Nurture My Plants"
+  description: "A web application that uses <span class=\"highlight\">LLM technology</span> to identify plants from uploaded photos and provide personalized care plans. Built to help my wife, a passionate newbie gardener (among many other amazing things), learn proper plant care techniques and identify her growing collection."
+  technologies: ["Next.js", "Anthropic API", "Vercel", "Image Processing"]
+  url: "https://nurture-my-plants.vercel.app"
+  impact: "Empowering home gardeners with <span class=\"highlight\">AI-powered plant identification</span> and personalized care guidance."
