@@ -17,17 +17,19 @@ This is a Jekyll-based personal portfolio website for Abhivadan Sharma, deployed
 │   └── default.html     # Main layout with theme toggle, scroll-to-top
 ├── _includes/           # Reusable components
 │   ├── header.html      # Site header
-│   ├── navigation.html  # Navigation menu
+│   ├── navigation.html  # Navigation menu (includes Personal Projects link)
 │   ├── education.html   # Education section
 │   ├── experience.html  # Work experience
 │   ├── competencies.html # Skills display
-│   └── business-impact.html # Projects/achievements
+│   ├── business-impact.html # Professional projects/achievements
+│   └── personal-projects.html # Personal development projects
 ├── _data/               # Content data (YAML files)
 │   ├── profile.yml      # Personal info, bio, links
 │   ├── education.yml    # Educational background
 │   ├── experience.yml   # Work experience
 │   ├── competencies.yml # Technical skills
-│   └── business_impact.yml # Projects and achievements
+│   ├── business_impact.yml # Professional projects and achievements
+│   └── personal_projects.yml # Personal development projects
 ├── assets/
 │   ├── css/main.css     # Main stylesheet (13.8KB)
 │   └── js/main.js       # JavaScript functionality (10KB)
@@ -40,6 +42,7 @@ This is a Jekyll-based personal portfolio website for Abhivadan Sharma, deployed
 ## Key Features
 - **Dark/Light Mode Toggle**: Theme switching with localStorage persistence
 - **Responsive Design**: Mobile-first approach with CSS Grid and Flexbox
+- **Personal Projects Showcase**: Dedicated section for side projects with tech tags and live links
 - **SEO Optimized**: Jekyll SEO plugin, proper meta tags, sitemap
 - **Performance Optimized**: Compressed CSS, modern JavaScript
 - **Accessibility**: ARIA labels, keyboard navigation support
@@ -77,8 +80,14 @@ All content is managed through YAML files in `_data/`:
 - Expertise areas
 
 ### business_impact.yml
-- Projects and achievements
+- Professional projects and achievements
 - Business impact metrics
+
+### personal_projects.yml
+- Personal development projects and side projects
+- Technology stacks used
+- Project URLs (live demos, GitHub repos)
+- Project impact and motivation
 
 ## Jekyll Configuration
 Key settings in `_config.yml`:
@@ -93,6 +102,7 @@ Key settings in `_config.yml`:
 - **No External Frameworks**: Pure CSS implementation
 - **Theme Support**: Light/dark mode with CSS custom properties
 - **Responsive**: Mobile-first design patterns
+- **Personal Projects Styling**: Custom tech tags, project links, and interactive buttons
 
 ## JavaScript Features
 - Theme toggle functionality
@@ -102,8 +112,8 @@ Key settings in `_config.yml`:
 
 ## Git Status
 - **Current Branch**: main
-- **Modified Files**: _data/education.yml
-- **Untracked Files**: index.html
+- **Latest Features**: Personal Projects section with Nurture My Plants showcase
+- **Recent Commit**: Added personal projects with navigation and styling
 
 ## Deployment
 - **Platform**: GitHub Pages

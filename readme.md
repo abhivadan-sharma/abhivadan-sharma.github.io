@@ -61,7 +61,8 @@ All content is managed through YAML files in the `_data/` directory:
 - `education.yml` - Educational background
 - `experience.yml` - Work experience
 - `competencies.yml` - Skills and expertise
-- `business_impact.yml` - Projects and achievements
+- `business_impact.yml` - Professional projects and achievements
+- `personal_projects.yml` - Personal development projects and side projects
 
 ## Customization
 
