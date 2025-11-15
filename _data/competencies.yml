@@ -5,7 +5,7 @@
     - name: "Data Engineering"
       description: "SQL, Python, SAS"
     - name: "Cloud Platforms"
-      description: "AWS, Azure"
+      description: "AWS, Azure, Databricks"
     - name: "Business Intelligence"
       description: "Power BI, Tableau"
 
